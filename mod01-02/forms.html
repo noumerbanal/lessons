@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body>
+	<form action="" method="">
+		<!-- TEXT FIELD -->
+		<label for="username">Username:</label>
+		<input type="text" name="username" placeholder="user123" required id="username">
+		<br>
+
+		<!-- PASSWORD FIELD -->
+		<label for="password">Password:</label>
+		<input type="password" name="password" placeholder="at least 8 characters" required id="password">
+		<br>
+
+		<!-- RADIO BUTTON -->
+		<label>Meal:</label>
+		<input type="radio" name="meal" value="breakfast" checked> Breakfast
+		<input type="radio" name="meal" value="Lunch"> Lunch
+		<input type="radio" name="meal" value="Dinner"> Dinner
+		<br>
+
+		<!-- CHECK BOXES -->
+		<label>Utensils:</label>
+		<input type="checkbox" name="utensil" value="spoon" checked> Spoon
+		<input type="checkbox" name="utensil" value="fork"> Fork
+		<input type="checkbox" name="utensil" value="knife"> Knife
+		<br>
+
+		<!-- EMAIL FIELD -->
+		<label for="email">Email:</label>
+		<input type="email" name="email" placeholder="name@email.com" id="email">
+		<br>
+
+		<!-- NUMBER FIELD -->
+		<label for="age">Age:</label>
+		<input type="number" name="age" placeholder="21" id="age" min="0">
+		<br>
+
+		<!-- TEXTAREA -->
+		<label for="comment">Comments:</label>
+		<textarea name="comment" placeholder="Write you comment here"></textarea>
+		<br>
+
+		<!-- DROPDOWN LIST -->
+		<select name="tvstation">
+			<option value="abscbn">ABS-CBN</option>
+			<option value="gma" selected>GMA</option>
+			<option value="tv5">TV5</option>
+		</select>
+		<br>
+
+		<!-- FILE INPUT -->
+		<input type="file" name="profile_pic">
+		<br>
+
+		<!-- BUTTON -->
+		<button>Hello</button>
+
+		<!-- FIELDSET-->
+		<fieldset>
+			<legend>Contact Details</legend>
+			<label>Email: <input type="email" name="email" placeholder="name@email.com"></label>
+			<br>
+			<label for="mobile">Mobile:<input type="number" name="mobile" placeholder="09189468498"></label>
+			<br>
+		</fieldset>
+
+		<!-- SUBMIT BUTTON -->
+		<input type="submit" value="Log In">
+
+	</form>
+
+</body>
+</html>
